@@ -15,7 +15,6 @@ namespace SocketServer.Host
             parameter.ReceiveMessageLength = 16;
             parameter.SendMessageLength = 32;
             parameter.SingletonBufferSize = 32;
-
             Core.SocketServer server = new Core.SocketServer(parameter);
             server.Start();
 
